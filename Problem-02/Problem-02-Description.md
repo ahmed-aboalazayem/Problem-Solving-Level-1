@@ -12,4 +12,4 @@ Write a program to print `"Ahmed Aboalazayem"` on the screen.
 
 ### Flowchart
 
-![Problem-01-Flowchart](./Problem-01/Problem-01-Flowchart.png)
+![Problem-01-Flowchart](./Problem-01-Flowchart.png)

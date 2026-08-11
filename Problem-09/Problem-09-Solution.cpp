@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void ReadNumbers(int& Num1, int& Num2, int& Num3)
+void ReadThreeNumbers(int& Num1, int& Num2, int& Num3)
 {
     cout << "Enter Number #1: ";
     cin >> Num1;
@@ -15,7 +15,7 @@ void ReadNumbers(int& Num1, int& Num2, int& Num3)
     cin >> Num3;
 }
 
-int SumOf3Numbers(int Num1, int Num2, int Num3)
+int SumOfThreeNumbers(int Num1, int Num2, int Num3)
 {
     return Num1 + Num2 + Num3;
 }
@@ -29,6 +29,6 @@ void PrintSum(int Sum)
 int main()
 {
     int Num1, Num2, Num3;
-    ReadNumbers(Num1, Num2, Num3);
-    PrintSum(SumOf3Numbers(Num1, Num2, Num3));
+    ReadThreeNumbers(Num1, Num2, Num3);
+    PrintSum(SumOfThreeNumbers(Num1, Num2, Num3));
 }

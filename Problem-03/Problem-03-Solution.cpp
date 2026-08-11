@@ -7,7 +7,10 @@ enum enEvenOdd {Odd = 1, Even = 2};
 int ReadNumber()
 {
     int Number;
+
+    cout << "Please Enter a Number: ";
     cin >> Number;
+    
     return Number;
 }
 
@@ -27,6 +30,5 @@ void PrintEvenOrOdd(enEvenOdd NumberType)
 
 int main()
 {
-    cout << "Please Enter a Number: ";
     PrintEvenOrOdd(CheckEvenOrOdd(ReadNumber()));
 }

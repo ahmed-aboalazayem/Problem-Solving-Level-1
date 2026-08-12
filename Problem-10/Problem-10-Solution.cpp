@@ -3,16 +3,27 @@
 using namespace std;
 
 
+int ReadMark(short MarkNum)
+{
+    int Mark;
+
+    cout << "Enter Mark #" << MarkNum << ": ";
+    cin >> Mark;
+
+    while(Mark < 0 || Mark > 100)
+    {
+        cout << "Invalid Mark, Please Try Again: ";
+        cin >> Mark;
+    }
+
+    return Mark;
+}
+
 void ReadThreeMarks(int& Mark1, int& Mark2, int& Mark3)
 {
-    cout << "Enter Mark #1: ";
-    cin >> Mark1;
-    
-    cout << "Enter Mark #2: ";
-    cin >> Mark2;
-    
-    cout << "Enter Mark #3: ";
-    cin >> Mark3;
+    Mark1 = ReadMark(1);
+    Mark2 = ReadMark(2);
+    Mark3 = ReadMark(3);
 }
 
 int SumOfThreeMarks(int Mark1, int Mark2, int Mark3)

@@ -13,27 +13,26 @@ float ReadNumber(string Message)
     return Number;
 }
 
-
-void ReadTriangleDimensions(float &Length, float &Width)
+void ReadRectangleDimensions(float &Length, float &Width)
 {
     Length = ReadNumber("Enter The Length Value: ");
     Width = ReadNumber("Enter The Width Value: ");
 }
 
-float GetTriangleArea(float Length, float Width)
+float GetRectangleArea(float Length, float Width)
 {
     return Length * Width;
 }
 
-void PrintTriangleArea(float Area)
+void PrintRectangleArea(float Area)
 {
-    printf("Triangle Area = %.2f\n", Area);
+    printf("Rectangle Area = %.2f\n", Area);
 }
 
 
 int main()
 {
     float Num1, Num2;
-    ReadTriangleDimensions(Num1, Num2);
-    PrintTriangleArea(GetTriangleArea(Num1, Num2));
+    ReadRectangleDimensions(Num1, Num2);
+    PrintRectangleArea(GetRectangleArea(Num1, Num2));
 }

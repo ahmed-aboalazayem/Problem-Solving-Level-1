@@ -19,17 +19,15 @@ Write a program to print all numbers from `1` to `N`.
     
 2. Read `N`.
     
-3. Set `Counter = 0`.
+3. Set `Counter = 1`.
     
-4. Increase `Counter` by `1`.
+4. Print `Counter` Value.
     
-5. Print `Counter`.
-    
-6. Check if `Counter == N`.
+5. Check if `Counter >= N`.
     
     - **Yes:** End.
         
-    - **No:** Go back to step 4.
+    - **No:** 6. Counter += 1, GO TO Step 4.
         
 7. End.
     

@@ -19,20 +19,16 @@ Write a program to print all numbers from `N` down to `1`.
     
 2. Read `N`.
     
-3. Set `Counter = N + 1`.
+3. Print `N`.
     
-4. Decrease `Counter` by `1`.
+4. Check if `N > 1`.
     
-5. Print `Counter`.
-    
-6. Check if `Counter == 1`.
-    
-    - **Yes:** End.
+    - **Yes:** 5. Decrease `N` by `1`, GO TO STEP 3.
         
-    - **No:** Go back to step 4.
+    - **No:** End.
         
-7. End.
-    
+
+6. End.
 
 ### Flowchart
 
